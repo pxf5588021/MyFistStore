@@ -49,4 +49,8 @@ public class JdbcController {
         map.addAttribute("users", userList);
         return "user";
     }
+    public String TextGit()
+    {
+        return  "a";
+    }
 }
